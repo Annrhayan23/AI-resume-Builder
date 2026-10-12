@@ -1,0 +1,105 @@
+{
+  "contact": {
+    "name": "Alex Mercer",
+    "email": "alex.mercer.dev@gmail.com",
+    "phone": "+1 (555) 234-5678",
+    "location": "San Francisco, CA (Open to Remote)",
+    "linkedin": "https://linkedin.com/in/alex-mercer-tech",
+    "github": "https://github.com/alexmercer-dev",
+    "portfolio": "https://alexmercer.dev"
+  },
+  "summary": "Full-Stack Software Engineer with 6+ years of experience designing high-throughput distributed systems, event-driven microservices, and modern web applications. Proven track record leading architectural initiatives that scaled services to 10M+ daily requests while cutting cloud infrastructure costs by 28%. Passionate about system observability, automated CI/CD pipelines, and developer productivity.",
+  "skills": {
+    "Languages": ["Python", "TypeScript", "JavaScript", "Go", "SQL", "HTML5", "CSS3"],
+    "Frameworks & Libraries": ["FastAPI", "React", "Next.js", "Node.js", "Django", "Tailwind CSS", "Redux Toolkit", "Express"],
+    "Cloud & DevOps": ["AWS (ECS, Lambda, S3, RDS, CloudFront)", "Docker", "Kubernetes", "Terraform", "GitHub Actions", "CI/CD", "Prometheus", "Grafana"],
+    "Databases & Storage": ["PostgreSQL", "Redis", "MongoDB", "Elasticsearch", "DynamoDB"],
+    "Architecture & Patterns": ["RESTful APIs", "GraphQL", "Microservices", "Event-Driven Architecture", "System Design", "TDD", "Agile/Scrum"]
+  },
+  "experience": [
+    {
+      "company": "Nexus Cloud Systems",
+      "role": "Senior Full-Stack Engineer",
+      "location": "San Francisco, CA (Remote)",
+      "start_date": "2022-03",
+      "end_date": "Present",
+      "current": true,
+      "bullets": [
+        "Architected and deployed a multi-tenant event ingestion pipeline using FastAPI, Kafka, and PostgreSQL, processing over 12M events daily with sub-80ms p99 latency.",
+        "Spearheaded migration of legacy monolith to containerized microservices on AWS ECS, slashing server compute expenditures by $45,000 annually.",
+        "Engineered real-time analytics dashboard with React, TypeScript, and WebSockets, boosting client daily active engagement by 34%.",
+        "Implemented automated GitHub Actions CI/CD workflows with end-to-end testing and canary deployments, reducing production deployment cycle times from 4 hours to 18 minutes.",
+        "Mentored 4 junior and mid-level engineers through code reviews, design docs, and bi-weekly architecture brown-bags."
+      ],
+      "technologies": ["FastAPI", "Python", "React", "TypeScript", "AWS", "Kafka", "PostgreSQL", "Docker", "GitHub Actions"]
+    },
+    {
+      "company": "Vanguard FinTech Labs",
+      "role": "Software Engineer",
+      "location": "New York, NY",
+      "start_date": "2019-06",
+      "end_date": "2022-02",
+      "current": false,
+      "bullets": [
+        "Built core payment reconciliation engine in Python and Django that processed $150M+ in quarterly transactions with 99.99% ledger accuracy.",
+        "Designed and tuned Redis caching layer, decreasing database query loads by 62% during peak market volatility windows.",
+        "Developed customer-facing onboarding portal in React and Redux, improving user conversion rates by 22% and reducing customer drop-offs.",
+        "Integrated SOC-2 compliant automated security scanning, audit logging, and role-based access control (RBAC) across all authentication endpoints.",
+        "Collaborated closely with product managers and UX designers in 2-week Agile sprints to deliver 14 major feature releases ahead of schedule."
+      ],
+      "technologies": ["Python", "Django", "React", "Redis", "PostgreSQL", "Docker", "Celery", "REST APIs"]
+    },
+    {
+      "company": "Elevate Digital Solutions",
+      "role": "Associate Software Engineer",
+      "location": "Boston, MA",
+      "start_date": "2018-01",
+      "end_date": "2019-05",
+      "current": false,
+      "bullets": [
+        "Constructed responsive client websites and internal workflow portals using JavaScript, Node.js, and Express for 8 enterprise clients.",
+        "Refactored legacy relational database schemas, accelerating query execution times by 40% on high-volume reporting dashboards.",
+        "Authored comprehensive unit and integration test suites achieving 88% code coverage, cutting customer-reported defect tickets by 30%."
+      ],
+      "technologies": ["JavaScript", "Node.js", "Express", "MySQL", "HTML5", "CSS3", "Jest"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Massachusetts Amherst",
+      "degree": "Bachelor of Science in Computer Science",
+      "field_of_study": "Computer Science",
+      "graduation_year": "2017",
+      "gpa": "3.8/4.0",
+      "honors": "Magna Cum Laude"
+    }
+  ],
+  "projects": [
+    {
+      "name": "CloudMetric: Distributed Observability Platform",
+      "role": "Creator & Lead Maintainer",
+      "description": "Open-source telemetry aggregation tool collecting and visualizing distributed metrics across container fleets.",
+      "bullets": [
+        "Developed high-throughput log collector in Go and Python capable of parsing 50k log lines per second with zero drop rates.",
+        "Gained 1,200+ GitHub stars and active adoption by 15+ engineering teams worldwide."
+      ],
+      "technologies": ["Go", "Python", "Docker", "Prometheus", "Grafana", "TimescaleDB"],
+      "link": "https://github.com/alexmercer-dev/cloudmetric"
+    },
+    {
+      "name": "QuickHire: AI Resume Parser & Matcher",
+      "role": "Developer",
+      "description": "Full-stack ATS analyzer utilizing NLP entity extraction to evaluate semantic alignment between resumes and job requirements.",
+      "bullets": [
+        "Trained embeddings classifier achieving 91% accuracy on technical competency mapping.",
+        "Deployed serverless backend on AWS Lambda handling thousands of document uploads."
+      ],
+      "technologies": ["Python", "FastAPI", "React", "AWS Lambda", "Scikit-Learn"],
+      "link": "https://github.com/alexmercer-dev/quickhire"
+    }
+  ],
+  "certifications": [
+    "AWS Certified Solutions Architect – Associate",
+    "Certified Kubernetes Administrator (CKA)"
+  ]
+}
